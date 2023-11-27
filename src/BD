@@ -1,0 +1,10 @@
+Create database persona_datos;
+Use persona_datos;
+
+Create table persona(
+documento int, 
+nombre varchar(80), 
+edad int,
+profesion varchar(200), 
+telefono int
+)
